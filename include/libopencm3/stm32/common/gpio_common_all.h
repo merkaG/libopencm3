@@ -71,8 +71,6 @@ specific memorymap.h header before including this header file.*/
 
 BEGIN_DECLS
 
-void gpio_set_mode(uint32_t gpioport, uint8_t mode, uint8_t cnf,
-		   uint16_t gpios);void gpio_set(uint32_t gpioport, uint16_t gpios);
 void gpio_clear(uint32_t gpioport, uint16_t gpios);
 uint16_t gpio_get(uint32_t gpioport, uint16_t gpios);
 void gpio_toggle(uint32_t gpioport, uint16_t gpios);
